@@ -1,0 +1,42 @@
+name: swipe_confirm_button
+description: >-
+  A universal, zero-dependency slide-to-confirm button for Flutter. Themeable,
+  with idle/loading/success/error states, haptics and RTL support.
+version: 0.1.0
+repository: https://github.com/Fayziddin2000/swipe_confirm_button
+issue_tracker: https://github.com/Fayziddin2000/swipe_confirm_button/issues
+
+topics:
+  - widget
+  - button
+  - slide-to-confirm
+  - gesture
+  - ui
+
+screenshots:
+  - description: "Default slide-to-confirm button"
+    path: doc/images/default.png
+  - description: "Custom colors"
+    path: doc/images/styled.png
+  - description: "Gradient track with trailing hint"
+    path: doc/images/gradient.png
+  - description: "Rounded, padded track with a custom icon"
+    path: doc/images/rounded.png
+  - description: "Success state"
+    path: doc/images/success.png
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

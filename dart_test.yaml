@@ -1,0 +1,6 @@
+# Golden "screenshot" tests are generation-only and machine-specific, so they
+# are skipped during a normal `flutter test`. Regenerate the images with:
+#   flutter test --run-skipped -t golden --update-goldens test/screenshot_test.dart
+tags:
+  golden:
+    skip: "screenshot generation only — see dart_test.yaml"

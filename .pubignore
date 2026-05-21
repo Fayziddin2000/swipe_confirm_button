@@ -1,0 +1,13 @@
+# Keep the published archive lean: ship the example source, not its build
+# artifacts or generated platform folders.
+example/android/
+example/ios/
+example/macos/
+example/web/
+example/linux/
+example/windows/
+example/build/
+example/.dart_tool/
+example/.flutter-plugins
+example/.flutter-plugins-dependencies
+build/
